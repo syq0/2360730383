@@ -1,0 +1,22 @@
+{
+    "name": "代理",
+    "description": "Deploy 代理 on Heroku.",
+    "keywords": ["V2Ray"],
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "52acbab1-76d2-4359-bf19-c6bcb0247318"
+        },
+        "AID": {
+            "description": "AlterID",
+            "value": "64"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/"
+        }
+    },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/bclswl0827/v2ray-heroku",
+    "stack": "container"
+}
